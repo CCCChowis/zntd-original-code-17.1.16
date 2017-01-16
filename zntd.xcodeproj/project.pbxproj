@@ -1,0 +1,895 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		576026A21DBCA00F00E04DF0 /* infoofflower.plist in Resources */ = {isa = PBXBuildFile; fileRef = 576026A11DBCA00F00E04DF0 /* infoofflower.plist */; };
+		576026A51DBCA33E00E04DF0 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 576026A41DBCA33E00E04DF0 /* TestViewController.m */; };
+		57B26C801D4F387B00BD0ADC /* MZTimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B26C7F1D4F387B00BD0ADC /* MZTimerLabel.m */; };
+		57E243D71D372B0000977516 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E243D61D372B0000977516 /* main.m */; };
+		57E243DA1D372B0000977516 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E243D91D372B0000977516 /* AppDelegate.m */; };
+		57E243DD1D372B0000977516 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E243DC1D372B0000977516 /* ViewController.m */; };
+		57E243E01D372B0000977516 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57E243DE1D372B0000977516 /* Main.storyboard */; };
+		57E243E21D372B0000977516 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57E243E11D372B0000977516 /* Assets.xcassets */; };
+		57E243E51D372B0000977516 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57E243E31D372B0000977516 /* LaunchScreen.storyboard */; };
+		57E243F01D372B0000977516 /* zntdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E243EF1D372B0000977516 /* zntdTests.m */; };
+		57E243FB1D372B0000977516 /* zntdUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E243FA1D372B0000977516 /* zntdUITests.m */; };
+		FA224AB11DAB78AF00C2CF1E /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = FA224A9B1DAB78AF00C2CF1E /* a.png */; };
+		FA224AB21DAB78AF00C2CF1E /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = FA224A9C1DAB78AF00C2CF1E /* b.png */; };
+		FA224AB31DAB78AF00C2CF1E /* c.png in Resources */ = {isa = PBXBuildFile; fileRef = FA224A9D1DAB78AF00C2CF1E /* c.png */; };
+		FA224AB41DAB78AF00C2CF1E /* d.png in Resources */ = {isa = PBXBuildFile; fileRef = FA224A9E1DAB78AF00C2CF1E /* d.png */; };
+		FA224AB51DAB78AF00C2CF1E /* e.png in Resources */ = {isa = PBXBuildFile; fileRef = FA224A9F1DAB78AF00C2CF1E /* e.png */; };
+		FA224AB61DAB78AF00C2CF1E /* treeBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = FA224AA01DAB78AF00C2CF1E /* treeBackground.png */; };
+		FA224AB71DAB78AF00C2CF1E /* treelowlevel.png in Resources */ = {isa = PBXBuildFile; fileRef = FA224AA11DAB78AF00C2CF1E /* treelowlevel.png */; };
+		FA224AB81DAB78AF00C2CF1E /* 中华芦荟.png in Resources */ = {isa = PBXBuildFile; fileRef = FA224AA21DAB78AF00C2CF1E /* 中华芦荟.png */; };
+		FA224AB91DAB78AF00C2CF1E /* 云.png in Resources */ = {isa = PBXBuildFile; fileRef = FA224AA31DAB78AF00C2CF1E /* 云.png */; };
+		FA224ABA1DAB78AF00C2CF1E /* 五十铃玉.png in Resources */ = {isa = PBXBuildFile; fileRef = FA224AA41DAB78AF00C2CF1E /* 五十铃玉.png */; };
+		FA224ABB1DAB78AF00C2CF1E /* 冰灯玉露.png in Resources */ = {isa = PBXBuildFile; fileRef = FA224AA51DAB78AF00C2CF1E /* 冰灯玉露.png */; };
+		FA224ABC1DAB78AF00C2CF1E /* 天堂树.png in Resources */ = {isa = PBXBuildFile; fileRef = FA224AA61DAB78AF00C2CF1E /* 天堂树.png */; };
+		FA224ABD1DAB78AF00C2CF1E /* 宝草.png in Resources */ = {isa = PBXBuildFile; fileRef = FA224AA71DAB78AF00C2CF1E /* 宝草.png */; };
+		FA224ABE1DAB78AF00C2CF1E /* 树屋.png in Resources */ = {isa = PBXBuildFile; fileRef = FA224AA81DAB78AF00C2CF1E /* 树屋.png */; };
+		FA224ABF1DAB78AF00C2CF1E /* 树背景6参考.png in Resources */ = {isa = PBXBuildFile; fileRef = FA224AA91DAB78AF00C2CF1E /* 树背景6参考.png */; };
+		FA224AC01DAB78AF00C2CF1E /* 生石花.png in Resources */ = {isa = PBXBuildFile; fileRef = FA224AAA1DAB78AF00C2CF1E /* 生石花.png */; };
+		FA224AC11DAB78AF00C2CF1E /* 白凤.png in Resources */ = {isa = PBXBuildFile; fileRef = FA224AAB1DAB78AF00C2CF1E /* 白凤.png */; };
+		FA224AC31DAB78AF00C2CF1E /* 背包.png in Resources */ = {isa = PBXBuildFile; fileRef = FA224AAD1DAB78AF00C2CF1E /* 背包.png */; };
+		FA224AC41DAB78AF00C2CF1E /* 零级花.png in Resources */ = {isa = PBXBuildFile; fileRef = FA224AAE1DAB78AF00C2CF1E /* 零级花.png */; };
+		FA224AC51DAB78AF00C2CF1E /* 魔法树.png in Resources */ = {isa = PBXBuildFile; fileRef = FA224AAF1DAB78AF00C2CF1E /* 魔法树.png */; };
+		FA224AC61DAB78AF00C2CF1E /* 鹿角海棠.png in Resources */ = {isa = PBXBuildFile; fileRef = FA224AB01DAB78AF00C2CF1E /* 鹿角海棠.png */; };
+		FA224AD01DAB85BB00C2CF1E /* TWLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA224ACF1DAB85BB00C2CF1E /* TWLAlertView.m */; };
+		FA9928251DD6FCB800484193 /* 碧光环.png in Resources */ = {isa = PBXBuildFile; fileRef = FA9928241DD6FCB800484193 /* 碧光环.png */; };
+		FA99282D1DD7000E00484193 /* 宝宝头像.png in Resources */ = {isa = PBXBuildFile; fileRef = FA99282C1DD7000E00484193 /* 宝宝头像.png */; };
+		FA9928301DD700B700484193 /* 开始种植副本.png in Resources */ = {isa = PBXBuildFile; fileRef = FA99282E1DD700B700484193 /* 开始种植副本.png */; };
+		FA9928311DD700B700484193 /* 种植成功6副本.png in Resources */ = {isa = PBXBuildFile; fileRef = FA99282F1DD700B700484193 /* 种植成功6副本.png */; };
+		FA9928331DD702B400484193 /* 虫子（用这个）.png in Resources */ = {isa = PBXBuildFile; fileRef = FA9928321DD702B400484193 /* 虫子（用这个）.png */; };
+		FA9928351DD7035C00484193 /* 叶子.png in Resources */ = {isa = PBXBuildFile; fileRef = FA9928341DD7035C00484193 /* 叶子.png */; };
+		FAA1AEE41DCDB75400B0C567 /* 乌羽玉.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA1AED51DCDB75400B0C567 /* 乌羽玉.png */; };
+		FAA1AEE51DCDB75400B0C567 /* 乙女心.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA1AED61DCDB75400B0C567 /* 乙女心.png */; };
+		FAA1AEE61DCDB75400B0C567 /* 仙人球.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA1AED71DCDB75400B0C567 /* 仙人球.png */; };
+		FAA1AEE71DCDB75400B0C567 /* 佛手掌.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA1AED81DCDB75400B0C567 /* 佛手掌.png */; };
+		FAA1AEE81DCDB75400B0C567 /* 假昙花.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA1AED91DCDB75400B0C567 /* 假昙花.png */; };
+		FAA1AEE91DCDB75400B0C567 /* 八千代.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA1AEDA1DCDB75400B0C567 /* 八千代.png */; };
+		FAA1AEEA1DCDB75400B0C567 /* 宝绿.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA1AEDB1DCDB75400B0C567 /* 宝绿.png */; };
+		FAA1AEEB1DCDB75400B0C567 /* 快刀乱麻.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA1AEDC1DCDB75400B0C567 /* 快刀乱麻.png */; };
+		FAA1AEEC1DCDB75400B0C567 /* 新玉缀.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA1AEDD1DCDB75400B0C567 /* 新玉缀.png */; };
+		FAA1AEED1DCDB75400B0C567 /* 星王子.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA1AEDE1DCDB75400B0C567 /* 星王子.png */; };
+		FAA1AEEE1DCDB75400B0C567 /* 爱之蔓.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA1AEDF1DCDB75400B0C567 /* 爱之蔓.png */; };
+		FAA1AEEF1DCDB75400B0C567 /* 福娘.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA1AEE01DCDB75400B0C567 /* 福娘.png */; };
+		FAA1AEF01DCDB75400B0C567 /* 茜之塔.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA1AEE11DCDB75400B0C567 /* 茜之塔.png */; };
+		FAA1AEF11DCDB75400B0C567 /* 锦上珠.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA1AEE21DCDB75400B0C567 /* 锦上珠.png */; };
+		FAA1AEF21DCDB75400B0C567 /* 雪莲.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA1AEE31DCDB75400B0C567 /* 雪莲.png */; };
+		FAA1AEFE1DCDB78500B0C567 /* 九轮塔.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA1AEF41DCDB78500B0C567 /* 九轮塔.png */; };
+		FAA1AEFF1DCDB78500B0C567 /* 仙人掌.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA1AEF51DCDB78500B0C567 /* 仙人掌.png */; };
+		FAA1AF001DCDB78500B0C567 /* 唐印.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA1AEF61DCDB78500B0C567 /* 唐印.png */; };
+		FAA1AF011DCDB78500B0C567 /* 月宫殿.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA1AEF71DCDB78500B0C567 /* 月宫殿.png */; };
+		FAA1AF021DCDB78500B0C567 /* 梨果仙人掌.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA1AEF81DCDB78500B0C567 /* 梨果仙人掌.png */; };
+		FAA1AF031DCDB78500B0C567 /* 绯牡丹.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA1AEF91DCDB78500B0C567 /* 绯牡丹.png */; };
+		FAA1AF041DCDB78500B0C567 /* 黄花照波.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA1AEFA1DCDB78500B0C567 /* 黄花照波.png */; };
+		FAA1AF051DCDB78500B0C567 /* 黄金纽.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA1AEFB1DCDB78500B0C567 /* 黄金纽.png */; };
+		FAA1AF061DCDB78500B0C567 /* 鼠尾掌.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA1AEFC1DCDB78500B0C567 /* 鼠尾掌.png */; };
+		FAA1AF071DCDB78500B0C567 /* 龙须海棠.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA1AEFD1DCDB78500B0C567 /* 龙须海棠.png */; };
+		FAA649511DEEEFE300496229 /* WBAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA649501DEEEFE300496229 /* WBAlertView.m */; };
+		FAA649541DEEF19C00496229 /* 魔法水副本.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA649531DEEF19C00496229 /* 魔法水副本.png */; };
+		FAA649561DEF331E00496229 /* 碧光环-1.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA649551DEF331E00496229 /* 碧光环-1.png */; };
+		FACD4BCE1DCD7ADE000CB975 /* mediumTreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACD4BCD1DCD7ADE000CB975 /* mediumTreeViewController.m */; };
+		FACD4BD11DCD7B02000CB975 /* seniorTreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACD4BD01DCD7B02000CB975 /* seniorTreeViewController.m */; };
+		FAD09E811DAA6F3B005C5B22 /* treeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD09E801DAA6F3B005C5B22 /* treeViewController.m */; };
+		FAE213A31DB4E1860096BD0A /* sortednames.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAE213A21DB4E1860096BD0A /* sortednames.plist */; };
+		FAE213A61DB4E8620096BD0A /* 中级树.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE213A41DB4E8620096BD0A /* 中级树.png */; };
+		FAE213A71DB4E8620096BD0A /* 高级树.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE213A51DB4E8620096BD0A /* 高级树.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57E243EC1D372B0000977516 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57E243CA1D372B0000977516 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57E243D11D372B0000977516;
+			remoteInfo = zntd;
+		};
+		57E243F71D372B0000977516 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57E243CA1D372B0000977516 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57E243D11D372B0000977516;
+			remoteInfo = zntd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		576026A11DBCA00F00E04DF0 /* infoofflower.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = infoofflower.plist; sourceTree = "<group>"; };
+		576026A31DBCA33E00E04DF0 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		576026A41DBCA33E00E04DF0 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		57B26C7E1D4F387B00BD0ADC /* MZTimerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZTimerLabel.h; sourceTree = "<group>"; };
+		57B26C7F1D4F387B00BD0ADC /* MZTimerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZTimerLabel.m; sourceTree = "<group>"; };
+		57E243D21D372B0000977516 /* zntd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zntd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57E243D61D372B0000977516 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57E243D81D372B0000977516 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57E243D91D372B0000977516 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57E243DB1D372B0000977516 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		57E243DC1D372B0000977516 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		57E243DF1D372B0000977516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57E243E11D372B0000977516 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57E243E41D372B0000977516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57E243E61D372B0000977516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57E243EB1D372B0000977516 /* zntdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zntdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57E243EF1D372B0000977516 /* zntdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zntdTests.m; sourceTree = "<group>"; };
+		57E243F11D372B0000977516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57E243F61D372B0000977516 /* zntdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zntdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57E243FA1D372B0000977516 /* zntdUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zntdUITests.m; sourceTree = "<group>"; };
+		57E243FC1D372B0000977516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA224A9B1DAB78AF00C2CF1E /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a.png; sourceTree = "<group>"; };
+		FA224A9C1DAB78AF00C2CF1E /* b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b.png; sourceTree = "<group>"; };
+		FA224A9D1DAB78AF00C2CF1E /* c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c.png; sourceTree = "<group>"; };
+		FA224A9E1DAB78AF00C2CF1E /* d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = d.png; sourceTree = "<group>"; };
+		FA224A9F1DAB78AF00C2CF1E /* e.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = e.png; sourceTree = "<group>"; };
+		FA224AA01DAB78AF00C2CF1E /* treeBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = treeBackground.png; sourceTree = "<group>"; };
+		FA224AA11DAB78AF00C2CF1E /* treelowlevel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = treelowlevel.png; sourceTree = "<group>"; };
+		FA224AA21DAB78AF00C2CF1E /* 中华芦荟.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "中华芦荟.png"; sourceTree = "<group>"; };
+		FA224AA31DAB78AF00C2CF1E /* 云.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "云.png"; sourceTree = "<group>"; };
+		FA224AA41DAB78AF00C2CF1E /* 五十铃玉.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "五十铃玉.png"; sourceTree = "<group>"; };
+		FA224AA51DAB78AF00C2CF1E /* 冰灯玉露.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "冰灯玉露.png"; sourceTree = "<group>"; };
+		FA224AA61DAB78AF00C2CF1E /* 天堂树.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "天堂树.png"; sourceTree = "<group>"; };
+		FA224AA71DAB78AF00C2CF1E /* 宝草.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "宝草.png"; sourceTree = "<group>"; };
+		FA224AA81DAB78AF00C2CF1E /* 树屋.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "树屋.png"; sourceTree = "<group>"; };
+		FA224AA91DAB78AF00C2CF1E /* 树背景6参考.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "树背景6参考.png"; sourceTree = "<group>"; };
+		FA224AAA1DAB78AF00C2CF1E /* 生石花.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "生石花.png"; sourceTree = "<group>"; };
+		FA224AAB1DAB78AF00C2CF1E /* 白凤.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白凤.png"; sourceTree = "<group>"; };
+		FA224AAD1DAB78AF00C2CF1E /* 背包.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背包.png"; sourceTree = "<group>"; };
+		FA224AAE1DAB78AF00C2CF1E /* 零级花.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "零级花.png"; sourceTree = "<group>"; };
+		FA224AAF1DAB78AF00C2CF1E /* 魔法树.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "魔法树.png"; sourceTree = "<group>"; };
+		FA224AB01DAB78AF00C2CF1E /* 鹿角海棠.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "鹿角海棠.png"; sourceTree = "<group>"; };
+		FA224ACE1DAB85BB00C2CF1E /* TWLAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWLAlertView.h; sourceTree = "<group>"; };
+		FA224ACF1DAB85BB00C2CF1E /* TWLAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWLAlertView.m; sourceTree = "<group>"; };
+		FA9928241DD6FCB800484193 /* 碧光环.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "碧光环.png"; sourceTree = "<group>"; };
+		FA99282C1DD7000E00484193 /* 宝宝头像.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "宝宝头像.png"; sourceTree = "<group>"; };
+		FA99282E1DD700B700484193 /* 开始种植副本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "开始种植副本.png"; sourceTree = "<group>"; };
+		FA99282F1DD700B700484193 /* 种植成功6副本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "种植成功6副本.png"; sourceTree = "<group>"; };
+		FA9928321DD702B400484193 /* 虫子（用这个）.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "虫子（用这个）.png"; sourceTree = "<group>"; };
+		FA9928341DD7035C00484193 /* 叶子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "叶子.png"; sourceTree = "<group>"; };
+		FAA1AED51DCDB75400B0C567 /* 乌羽玉.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乌羽玉.png"; sourceTree = "<group>"; };
+		FAA1AED61DCDB75400B0C567 /* 乙女心.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乙女心.png"; sourceTree = "<group>"; };
+		FAA1AED71DCDB75400B0C567 /* 仙人球.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "仙人球.png"; sourceTree = "<group>"; };
+		FAA1AED81DCDB75400B0C567 /* 佛手掌.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "佛手掌.png"; sourceTree = "<group>"; };
+		FAA1AED91DCDB75400B0C567 /* 假昙花.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "假昙花.png"; sourceTree = "<group>"; };
+		FAA1AEDA1DCDB75400B0C567 /* 八千代.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "八千代.png"; sourceTree = "<group>"; };
+		FAA1AEDB1DCDB75400B0C567 /* 宝绿.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "宝绿.png"; sourceTree = "<group>"; };
+		FAA1AEDC1DCDB75400B0C567 /* 快刀乱麻.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "快刀乱麻.png"; sourceTree = "<group>"; };
+		FAA1AEDD1DCDB75400B0C567 /* 新玉缀.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新玉缀.png"; sourceTree = "<group>"; };
+		FAA1AEDE1DCDB75400B0C567 /* 星王子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "星王子.png"; sourceTree = "<group>"; };
+		FAA1AEDF1DCDB75400B0C567 /* 爱之蔓.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "爱之蔓.png"; sourceTree = "<group>"; };
+		FAA1AEE01DCDB75400B0C567 /* 福娘.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "福娘.png"; sourceTree = "<group>"; };
+		FAA1AEE11DCDB75400B0C567 /* 茜之塔.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茜之塔.png"; sourceTree = "<group>"; };
+		FAA1AEE21DCDB75400B0C567 /* 锦上珠.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "锦上珠.png"; sourceTree = "<group>"; };
+		FAA1AEE31DCDB75400B0C567 /* 雪莲.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雪莲.png"; sourceTree = "<group>"; };
+		FAA1AEF41DCDB78500B0C567 /* 九轮塔.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "九轮塔.png"; sourceTree = "<group>"; };
+		FAA1AEF51DCDB78500B0C567 /* 仙人掌.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "仙人掌.png"; sourceTree = "<group>"; };
+		FAA1AEF61DCDB78500B0C567 /* 唐印.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "唐印.png"; sourceTree = "<group>"; };
+		FAA1AEF71DCDB78500B0C567 /* 月宫殿.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "月宫殿.png"; sourceTree = "<group>"; };
+		FAA1AEF81DCDB78500B0C567 /* 梨果仙人掌.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "梨果仙人掌.png"; sourceTree = "<group>"; };
+		FAA1AEF91DCDB78500B0C567 /* 绯牡丹.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "绯牡丹.png"; sourceTree = "<group>"; };
+		FAA1AEFA1DCDB78500B0C567 /* 黄花照波.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黄花照波.png"; sourceTree = "<group>"; };
+		FAA1AEFB1DCDB78500B0C567 /* 黄金纽.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黄金纽.png"; sourceTree = "<group>"; };
+		FAA1AEFC1DCDB78500B0C567 /* 鼠尾掌.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "鼠尾掌.png"; sourceTree = "<group>"; };
+		FAA1AEFD1DCDB78500B0C567 /* 龙须海棠.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "龙须海棠.png"; sourceTree = "<group>"; };
+		FAA6494F1DEEEFE300496229 /* WBAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBAlertView.h; sourceTree = "<group>"; };
+		FAA649501DEEEFE300496229 /* WBAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBAlertView.m; sourceTree = "<group>"; };
+		FAA649531DEEF19C00496229 /* 魔法水副本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "魔法水副本.png"; sourceTree = "<group>"; };
+		FAA649551DEF331E00496229 /* 碧光环-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "碧光环-1.png"; sourceTree = "<group>"; };
+		FACD4BCC1DCD7ADE000CB975 /* mediumTreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mediumTreeViewController.h; sourceTree = "<group>"; };
+		FACD4BCD1DCD7ADE000CB975 /* mediumTreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mediumTreeViewController.m; sourceTree = "<group>"; };
+		FACD4BCF1DCD7B02000CB975 /* seniorTreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = seniorTreeViewController.h; sourceTree = "<group>"; };
+		FACD4BD01DCD7B02000CB975 /* seniorTreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = seniorTreeViewController.m; sourceTree = "<group>"; };
+		FAD09E7F1DAA6F3B005C5B22 /* treeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = treeViewController.h; sourceTree = "<group>"; };
+		FAD09E801DAA6F3B005C5B22 /* treeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = treeViewController.m; sourceTree = "<group>"; };
+		FAE213A21DB4E1860096BD0A /* sortednames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sortednames.plist; sourceTree = "<group>"; };
+		FAE213A41DB4E8620096BD0A /* 中级树.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "中级树.png"; sourceTree = "<group>"; };
+		FAE213A51DB4E8620096BD0A /* 高级树.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "高级树.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57E243CF1D372B0000977516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57E243E81D372B0000977516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57E243F31D372B0000977516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57B26C7D1D4F386400BD0ADC /* MZTimeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				57B26C7E1D4F387B00BD0ADC /* MZTimerLabel.h */,
+				57B26C7F1D4F387B00BD0ADC /* MZTimerLabel.m */,
+			);
+			name = MZTimeLabel;
+			sourceTree = "<group>";
+		};
+		57E243C91D372B0000977516 = {
+			isa = PBXGroup;
+			children = (
+				57E243D41D372B0000977516 /* zntd */,
+				57E243EE1D372B0000977516 /* zntdTests */,
+				57E243F91D372B0000977516 /* zntdUITests */,
+				57E243D31D372B0000977516 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57E243D31D372B0000977516 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57E243D21D372B0000977516 /* zntd.app */,
+				57E243EB1D372B0000977516 /* zntdTests.xctest */,
+				57E243F61D372B0000977516 /* zntdUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57E243D41D372B0000977516 /* zntd */ = {
+			isa = PBXGroup;
+			children = (
+				FA224AC71DAB78C500C2CF1E /* image */,
+				FA224A941DAB6E0800C2CF1E /* delegate */,
+				FA224A931DAB6DF000C2CF1E /* controller */,
+				57E243DE1D372B0000977516 /* Main.storyboard */,
+				57E243E11D372B0000977516 /* Assets.xcassets */,
+				57E243E31D372B0000977516 /* LaunchScreen.storyboard */,
+				57E243E61D372B0000977516 /* Info.plist */,
+				FAE213A21DB4E1860096BD0A /* sortednames.plist */,
+				57E243D51D372B0000977516 /* Supporting Files */,
+			);
+			path = zntd;
+			sourceTree = "<group>";
+		};
+		57E243D51D372B0000977516 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57E243D61D372B0000977516 /* main.m */,
+				576026A11DBCA00F00E04DF0 /* infoofflower.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57E243EE1D372B0000977516 /* zntdTests */ = {
+			isa = PBXGroup;
+			children = (
+				57E243EF1D372B0000977516 /* zntdTests.m */,
+				57E243F11D372B0000977516 /* Info.plist */,
+			);
+			path = zntdTests;
+			sourceTree = "<group>";
+		};
+		57E243F91D372B0000977516 /* zntdUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57E243FA1D372B0000977516 /* zntdUITests.m */,
+				57E243FC1D372B0000977516 /* Info.plist */,
+			);
+			path = zntdUITests;
+			sourceTree = "<group>";
+		};
+		FA224A931DAB6DF000C2CF1E /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				576026A31DBCA33E00E04DF0 /* TestViewController.h */,
+				576026A41DBCA33E00E04DF0 /* TestViewController.m */,
+				57B26C7D1D4F386400BD0ADC /* MZTimeLabel */,
+				FA224AD11DAB85C300C2CF1E /* TWLAlertView */,
+				FAA649521DEEEFF100496229 /* WBAlertView */,
+				57E243DB1D372B0000977516 /* ViewController.h */,
+				57E243DC1D372B0000977516 /* ViewController.m */,
+				FAD09E7F1DAA6F3B005C5B22 /* treeViewController.h */,
+				FAD09E801DAA6F3B005C5B22 /* treeViewController.m */,
+				FACD4BCC1DCD7ADE000CB975 /* mediumTreeViewController.h */,
+				FACD4BCD1DCD7ADE000CB975 /* mediumTreeViewController.m */,
+				FACD4BCF1DCD7B02000CB975 /* seniorTreeViewController.h */,
+				FACD4BD01DCD7B02000CB975 /* seniorTreeViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		FA224A941DAB6E0800C2CF1E /* delegate */ = {
+			isa = PBXGroup;
+			children = (
+				57E243D81D372B0000977516 /* AppDelegate.h */,
+				57E243D91D372B0000977516 /* AppDelegate.m */,
+			);
+			name = delegate;
+			sourceTree = "<group>";
+		};
+		FA224AC71DAB78C500C2CF1E /* image */ = {
+			isa = PBXGroup;
+			children = (
+				FAA649531DEEF19C00496229 /* 魔法水副本.png */,
+				FA224AC81DAB799000C2CF1E /* 初级花 */,
+				FAA1AED41DCDB75400B0C567 /* 中级花 */,
+				FAA1AEF31DCDB78500B0C567 /* 高级花 */,
+				FA224AC91DAB79A400C2CF1E /* 盆栽 */,
+				FA224AA01DAB78AF00C2CF1E /* treeBackground.png */,
+				FAE213A81DB4E86A0096BD0A /* 树 */,
+				FA224AA31DAB78AF00C2CF1E /* 云.png */,
+				FA9928341DD7035C00484193 /* 叶子.png */,
+				FA224AA61DAB78AF00C2CF1E /* 天堂树.png */,
+				FA9928321DD702B400484193 /* 虫子（用这个）.png */,
+				FA99282C1DD7000E00484193 /* 宝宝头像.png */,
+				FA224AA81DAB78AF00C2CF1E /* 树屋.png */,
+				FA224AA91DAB78AF00C2CF1E /* 树背景6参考.png */,
+				FA224AAD1DAB78AF00C2CF1E /* 背包.png */,
+				FA224AAE1DAB78AF00C2CF1E /* 零级花.png */,
+				FA224AAF1DAB78AF00C2CF1E /* 魔法树.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		FA224AC81DAB799000C2CF1E /* 初级花 */ = {
+			isa = PBXGroup;
+			children = (
+				FA224AA21DAB78AF00C2CF1E /* 中华芦荟.png */,
+				FA224AA41DAB78AF00C2CF1E /* 五十铃玉.png */,
+				FA224AA51DAB78AF00C2CF1E /* 冰灯玉露.png */,
+				FA224AA71DAB78AF00C2CF1E /* 宝草.png */,
+				FA224AAA1DAB78AF00C2CF1E /* 生石花.png */,
+				FA224AAB1DAB78AF00C2CF1E /* 白凤.png */,
+				FA9928241DD6FCB800484193 /* 碧光环.png */,
+				FAA649551DEF331E00496229 /* 碧光环-1.png */,
+				FA224AB01DAB78AF00C2CF1E /* 鹿角海棠.png */,
+			);
+			name = "初级花";
+			sourceTree = "<group>";
+		};
+		FA224AC91DAB79A400C2CF1E /* 盆栽 */ = {
+			isa = PBXGroup;
+			children = (
+				FA224A9E1DAB78AF00C2CF1E /* d.png */,
+				FA224A9B1DAB78AF00C2CF1E /* a.png */,
+				FA224A9C1DAB78AF00C2CF1E /* b.png */,
+				FA224A9D1DAB78AF00C2CF1E /* c.png */,
+				FA224A9F1DAB78AF00C2CF1E /* e.png */,
+			);
+			name = "盆栽";
+			sourceTree = "<group>";
+		};
+		FA224AD11DAB85C300C2CF1E /* TWLAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				FA224ACE1DAB85BB00C2CF1E /* TWLAlertView.h */,
+				FA224ACF1DAB85BB00C2CF1E /* TWLAlertView.m */,
+			);
+			name = TWLAlertView;
+			sourceTree = "<group>";
+		};
+		FAA1AED41DCDB75400B0C567 /* 中级花 */ = {
+			isa = PBXGroup;
+			children = (
+				FAA1AED51DCDB75400B0C567 /* 乌羽玉.png */,
+				FAA1AED61DCDB75400B0C567 /* 乙女心.png */,
+				FAA1AED71DCDB75400B0C567 /* 仙人球.png */,
+				FAA1AED81DCDB75400B0C567 /* 佛手掌.png */,
+				FAA1AED91DCDB75400B0C567 /* 假昙花.png */,
+				FAA1AEDA1DCDB75400B0C567 /* 八千代.png */,
+				FAA1AEDB1DCDB75400B0C567 /* 宝绿.png */,
+				FAA1AEDC1DCDB75400B0C567 /* 快刀乱麻.png */,
+				FAA1AEDD1DCDB75400B0C567 /* 新玉缀.png */,
+				FAA1AEDE1DCDB75400B0C567 /* 星王子.png */,
+				FAA1AEDF1DCDB75400B0C567 /* 爱之蔓.png */,
+				FAA1AEE01DCDB75400B0C567 /* 福娘.png */,
+				FAA1AEE11DCDB75400B0C567 /* 茜之塔.png */,
+				FAA1AEE21DCDB75400B0C567 /* 锦上珠.png */,
+				FAA1AEE31DCDB75400B0C567 /* 雪莲.png */,
+			);
+			name = "中级花";
+			path = "中级";
+			sourceTree = "<group>";
+		};
+		FAA1AEF31DCDB78500B0C567 /* 高级花 */ = {
+			isa = PBXGroup;
+			children = (
+				FAA1AEF41DCDB78500B0C567 /* 九轮塔.png */,
+				FAA1AEF51DCDB78500B0C567 /* 仙人掌.png */,
+				FAA1AEF61DCDB78500B0C567 /* 唐印.png */,
+				FAA1AEF71DCDB78500B0C567 /* 月宫殿.png */,
+				FAA1AEF81DCDB78500B0C567 /* 梨果仙人掌.png */,
+				FAA1AEF91DCDB78500B0C567 /* 绯牡丹.png */,
+				FAA1AEFA1DCDB78500B0C567 /* 黄花照波.png */,
+				FAA1AEFB1DCDB78500B0C567 /* 黄金纽.png */,
+				FAA1AEFC1DCDB78500B0C567 /* 鼠尾掌.png */,
+				FAA1AEFD1DCDB78500B0C567 /* 龙须海棠.png */,
+			);
+			name = "高级花";
+			path = "高级";
+			sourceTree = "<group>";
+		};
+		FAA649521DEEEFF100496229 /* WBAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				FAA6494F1DEEEFE300496229 /* WBAlertView.h */,
+				FAA649501DEEEFE300496229 /* WBAlertView.m */,
+			);
+			name = WBAlertView;
+			sourceTree = "<group>";
+		};
+		FAE213A81DB4E86A0096BD0A /* 树 */ = {
+			isa = PBXGroup;
+			children = (
+				FA99282E1DD700B700484193 /* 开始种植副本.png */,
+				FA99282F1DD700B700484193 /* 种植成功6副本.png */,
+				FAE213A41DB4E8620096BD0A /* 中级树.png */,
+				FAE213A51DB4E8620096BD0A /* 高级树.png */,
+				FA224AA11DAB78AF00C2CF1E /* treelowlevel.png */,
+			);
+			name = "树";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57E243D11D372B0000977516 /* zntd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57E243FF1D372B0000977516 /* Build configuration list for PBXNativeTarget "zntd" */;
+			buildPhases = (
+				57E243CE1D372B0000977516 /* Sources */,
+				57E243CF1D372B0000977516 /* Frameworks */,
+				57E243D01D372B0000977516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zntd;
+			productName = zntd;
+			productReference = 57E243D21D372B0000977516 /* zntd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57E243EA1D372B0000977516 /* zntdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57E244021D372B0000977516 /* Build configuration list for PBXNativeTarget "zntdTests" */;
+			buildPhases = (
+				57E243E71D372B0000977516 /* Sources */,
+				57E243E81D372B0000977516 /* Frameworks */,
+				57E243E91D372B0000977516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57E243ED1D372B0000977516 /* PBXTargetDependency */,
+			);
+			name = zntdTests;
+			productName = zntdTests;
+			productReference = 57E243EB1D372B0000977516 /* zntdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57E243F51D372B0000977516 /* zntdUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57E244051D372B0000977516 /* Build configuration list for PBXNativeTarget "zntdUITests" */;
+			buildPhases = (
+				57E243F21D372B0000977516 /* Sources */,
+				57E243F31D372B0000977516 /* Frameworks */,
+				57E243F41D372B0000977516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57E243F81D372B0000977516 /* PBXTargetDependency */,
+			);
+			name = zntdUITests;
+			productName = zntdUITests;
+			productReference = 57E243F61D372B0000977516 /* zntdUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57E243CA1D372B0000977516 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "x c";
+				TargetAttributes = {
+					57E243D11D372B0000977516 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 255HYG7ACW;
+					};
+					57E243EA1D372B0000977516 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 57E243D11D372B0000977516;
+					};
+					57E243F51D372B0000977516 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 57E243D11D372B0000977516;
+					};
+				};
+			};
+			buildConfigurationList = 57E243CD1D372B0000977516 /* Build configuration list for PBXProject "zntd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57E243C91D372B0000977516;
+			productRefGroup = 57E243D31D372B0000977516 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57E243D11D372B0000977516 /* zntd */,
+				57E243EA1D372B0000977516 /* zntdTests */,
+				57E243F51D372B0000977516 /* zntdUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57E243D01D372B0000977516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA1AEF21DCDB75400B0C567 /* 雪莲.png in Resources */,
+				FAA1AEF01DCDB75400B0C567 /* 茜之塔.png in Resources */,
+				FA224ABC1DAB78AF00C2CF1E /* 天堂树.png in Resources */,
+				FAA1AEEE1DCDB75400B0C567 /* 爱之蔓.png in Resources */,
+				57E243E51D372B0000977516 /* LaunchScreen.storyboard in Resources */,
+				FA224AB21DAB78AF00C2CF1E /* b.png in Resources */,
+				FAA1AF011DCDB78500B0C567 /* 月宫殿.png in Resources */,
+				FAA649561DEF331E00496229 /* 碧光环-1.png in Resources */,
+				FAA1AEE91DCDB75400B0C567 /* 八千代.png in Resources */,
+				FAA1AEED1DCDB75400B0C567 /* 星王子.png in Resources */,
+				FAA1AEEF1DCDB75400B0C567 /* 福娘.png in Resources */,
+				FAE213A61DB4E8620096BD0A /* 中级树.png in Resources */,
+				FA224AB11DAB78AF00C2CF1E /* a.png in Resources */,
+				FA224AC61DAB78AF00C2CF1E /* 鹿角海棠.png in Resources */,
+				FA224AB61DAB78AF00C2CF1E /* treeBackground.png in Resources */,
+				FAE213A71DB4E8620096BD0A /* 高级树.png in Resources */,
+				FAA1AF021DCDB78500B0C567 /* 梨果仙人掌.png in Resources */,
+				FA224AB31DAB78AF00C2CF1E /* c.png in Resources */,
+				FAA1AEE51DCDB75400B0C567 /* 乙女心.png in Resources */,
+				FAA1AF061DCDB78500B0C567 /* 鼠尾掌.png in Resources */,
+				FAA1AF071DCDB78500B0C567 /* 龙须海棠.png in Resources */,
+				57E243E21D372B0000977516 /* Assets.xcassets in Resources */,
+				FAA1AEEB1DCDB75400B0C567 /* 快刀乱麻.png in Resources */,
+				FA9928311DD700B700484193 /* 种植成功6副本.png in Resources */,
+				FA224ABA1DAB78AF00C2CF1E /* 五十铃玉.png in Resources */,
+				FA224AB51DAB78AF00C2CF1E /* e.png in Resources */,
+				FAA1AF051DCDB78500B0C567 /* 黄金纽.png in Resources */,
+				FAE213A31DB4E1860096BD0A /* sortednames.plist in Resources */,
+				FAA1AEE61DCDB75400B0C567 /* 仙人球.png in Resources */,
+				FAA1AEF11DCDB75400B0C567 /* 锦上珠.png in Resources */,
+				FA224AB41DAB78AF00C2CF1E /* d.png in Resources */,
+				FA224AC11DAB78AF00C2CF1E /* 白凤.png in Resources */,
+				FA9928331DD702B400484193 /* 虫子（用这个）.png in Resources */,
+				FAA1AEE81DCDB75400B0C567 /* 假昙花.png in Resources */,
+				FAA1AEE41DCDB75400B0C567 /* 乌羽玉.png in Resources */,
+				FA224AC51DAB78AF00C2CF1E /* 魔法树.png in Resources */,
+				FA224ABB1DAB78AF00C2CF1E /* 冰灯玉露.png in Resources */,
+				576026A21DBCA00F00E04DF0 /* infoofflower.plist in Resources */,
+				FA224AC01DAB78AF00C2CF1E /* 生石花.png in Resources */,
+				FA224AB81DAB78AF00C2CF1E /* 中华芦荟.png in Resources */,
+				FA224AB91DAB78AF00C2CF1E /* 云.png in Resources */,
+				FAA1AEE71DCDB75400B0C567 /* 佛手掌.png in Resources */,
+				FA224AC31DAB78AF00C2CF1E /* 背包.png in Resources */,
+				FA9928251DD6FCB800484193 /* 碧光环.png in Resources */,
+				FAA1AF031DCDB78500B0C567 /* 绯牡丹.png in Resources */,
+				FA224ABE1DAB78AF00C2CF1E /* 树屋.png in Resources */,
+				FAA1AEFF1DCDB78500B0C567 /* 仙人掌.png in Resources */,
+				FAA1AEEA1DCDB75400B0C567 /* 宝绿.png in Resources */,
+				FA9928351DD7035C00484193 /* 叶子.png in Resources */,
+				FAA649541DEEF19C00496229 /* 魔法水副本.png in Resources */,
+				FA9928301DD700B700484193 /* 开始种植副本.png in Resources */,
+				57E243E01D372B0000977516 /* Main.storyboard in Resources */,
+				FAA1AF001DCDB78500B0C567 /* 唐印.png in Resources */,
+				FA224AB71DAB78AF00C2CF1E /* treelowlevel.png in Resources */,
+				FA224ABF1DAB78AF00C2CF1E /* 树背景6参考.png in Resources */,
+				FAA1AEEC1DCDB75400B0C567 /* 新玉缀.png in Resources */,
+				FAA1AEFE1DCDB78500B0C567 /* 九轮塔.png in Resources */,
+				FAA1AF041DCDB78500B0C567 /* 黄花照波.png in Resources */,
+				FA99282D1DD7000E00484193 /* 宝宝头像.png in Resources */,
+				FA224AC41DAB78AF00C2CF1E /* 零级花.png in Resources */,
+				FA224ABD1DAB78AF00C2CF1E /* 宝草.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57E243E91D372B0000977516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57E243F41D372B0000977516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57E243CE1D372B0000977516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA649511DEEEFE300496229 /* WBAlertView.m in Sources */,
+				57B26C801D4F387B00BD0ADC /* MZTimerLabel.m in Sources */,
+				FA224AD01DAB85BB00C2CF1E /* TWLAlertView.m in Sources */,
+				576026A51DBCA33E00E04DF0 /* TestViewController.m in Sources */,
+				57E243DD1D372B0000977516 /* ViewController.m in Sources */,
+				57E243DA1D372B0000977516 /* AppDelegate.m in Sources */,
+				FACD4BCE1DCD7ADE000CB975 /* mediumTreeViewController.m in Sources */,
+				FAD09E811DAA6F3B005C5B22 /* treeViewController.m in Sources */,
+				FACD4BD11DCD7B02000CB975 /* seniorTreeViewController.m in Sources */,
+				57E243D71D372B0000977516 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57E243E71D372B0000977516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E243F01D372B0000977516 /* zntdTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57E243F21D372B0000977516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E243FB1D372B0000977516 /* zntdUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57E243ED1D372B0000977516 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57E243D11D372B0000977516 /* zntd */;
+			targetProxy = 57E243EC1D372B0000977516 /* PBXContainerItemProxy */;
+		};
+		57E243F81D372B0000977516 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57E243D11D372B0000977516 /* zntd */;
+			targetProxy = 57E243F71D372B0000977516 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57E243DE1D372B0000977516 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57E243DF1D372B0000977516 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57E243E31D372B0000977516 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57E243E41D372B0000977516 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57E243FD1D372B0000977516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57E243FE1D372B0000977516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57E244001D372B0000977516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = zntd/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zntd.zntd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		57E244011D372B0000977516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = zntd/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zntd.zntd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		57E244031D372B0000977516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = zntdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zntd.zntdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zntd.app/zntd";
+			};
+			name = Debug;
+		};
+		57E244041D372B0000977516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = zntdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zntd.zntdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zntd.app/zntd";
+			};
+			name = Release;
+		};
+		57E244061D372B0000977516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = zntdUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zntd.zntdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = zntd;
+			};
+			name = Debug;
+		};
+		57E244071D372B0000977516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = zntdUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zntd.zntdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = zntd;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57E243CD1D372B0000977516 /* Build configuration list for PBXProject "zntd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57E243FD1D372B0000977516 /* Debug */,
+				57E243FE1D372B0000977516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57E243FF1D372B0000977516 /* Build configuration list for PBXNativeTarget "zntd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57E244001D372B0000977516 /* Debug */,
+				57E244011D372B0000977516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57E244021D372B0000977516 /* Build configuration list for PBXNativeTarget "zntdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57E244031D372B0000977516 /* Debug */,
+				57E244041D372B0000977516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57E244051D372B0000977516 /* Build configuration list for PBXNativeTarget "zntdUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57E244061D372B0000977516 /* Debug */,
+				57E244071D372B0000977516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57E243CA1D372B0000977516 /* Project object */;
+}
